@@ -1,0 +1,8 @@
+main{
+    background-image: url(https://img.freepik.com/psd-gratis/fondo-textura-madera-moderna_1022-74.jpg?w=740&t=st=1661532750~exp=1661533350~hmac=f002478f33b7e4327ce7ec9be6a1cdf46a4ba0c66dc5425ec5a39dddfa932bda);
+    .seccionDos{ 
+        @include display($justify: center, $aling: center)  
+        
+    }
+        
+}

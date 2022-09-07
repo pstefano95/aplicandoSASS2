@@ -1,0 +1,14 @@
+@mixin botones ($bordercolor,$textcolor, $bgcolor) {
+    padding: 10px;
+    border-bottom: 3px solid $bordercolor;
+    border-radius: 5px;
+    color: $textcolor ;
+    background-color: $bgcolor;
+}
+
+@mixin display ($justify, $aling) {
+    display: flex;
+    justify-content: $justify ;
+    align-items: $aling;
+   
+}
